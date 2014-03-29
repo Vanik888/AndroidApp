@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Evernote</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_back">back</string>
+    <string name="btn_logo">logo</string>
+    <string name="btn_menu">menu</string>
+    <string name="btn_menu_search">search</string>
+
+    <string name="btn_second_act">second activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="tv_after_actionbar">Creating New application</string>
+
+    <string name="tv_notebook">development</string>
+    <string name="tv_add_tag">Add tag</string>
+</resources>

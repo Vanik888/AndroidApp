@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gray_spacing"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="64dp"
+        android:text="@string/tv_after_actionbar"
+        android:textColor="@color/green_text"
+        android:onClick="onClick"
+        android:gravity="center|left"
+        android:paddingLeft="25dp"
+        android:background="@color/white_background"
+        android:layout_marginBottom="1dp"
+        android:id="@+id/tvAferActionBar"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:src="@drawable/ic_menu_add_media"
+
+        />
+    <LinearLayout
+        android:layout_below="@id/tvAferActionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:background="@color/white_background"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:background="@drawable/corners"
+            android:text="@string/tv_notebook"
+            android:textColor="@color/white_text"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:text="@string/tv_add_tag"
+            android:textColor="@color/green_text"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:src="@drawable/ic_menu_add_media"
+            android:gravity="center_horizontal"
+
+
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    <!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context="com.example.app.MainActivity"-->
+    <!--tools:ignore="MergeRootFrame" />-->
+

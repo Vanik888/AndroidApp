@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<resources>
+    <style name="myAppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:actionOverflowButtonStyle">@style/myOverflowIcon</item>
+        <item name="android:logo">@drawable/ic_app_logo_light</item>
+        <!--<item name="android:homeAsUpIndicator">@style/backIcon</item>-->
+
+    </style>
+    <style name="myOverflowIcon">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_light</item>
+    </style>
+    <style name="backIcon">
+        <item name="android:src">@drawable/ic_menu_add_shortcut</item>
+    </style>
+
+    <style name="myOwnTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+    <style name="MyActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@style/actionBarBacground</item>
+    </style>
+
+    <style name="actionBarBacground">#FFFFFF</style>
+
+
+</resources>
